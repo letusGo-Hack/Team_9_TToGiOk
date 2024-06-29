@@ -15,10 +15,16 @@
 		9BD2AC282C2FBDA300A940B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC272C2FBDA300A940B5 /* ContentView.swift */; };
 		9BD2AC2A2C2FBDA400A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC292C2FBDA400A940B5 /* Assets.xcassets */; };
 		9BD2AC2D2C2FBDA400A940B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC2C2C2FBDA400A940B5 /* Preview Assets.xcassets */; };
+		9BD2AC3C2C2FBDBE00A940B5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3B2C2FBDBE00A940B5 /* WidgetKit.framework */; };
+		9BD2AC3E2C2FBDBE00A940B5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3D2C2FBDBE00A940B5 /* SwiftUI.framework */; };
+		9BD2AC412C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC402C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift */; };
+		9BD2AC432C2FBDBE00A940B5 /* TToGiokWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC422C2FBDBE00A940B5 /* TToGiokWidget.swift */; };
+		9BD2AC452C2FBDBF00A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */; };
+		9BD2AC4A2C2FBDBF00A940B5 /* TToGiokWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9BD2AC522C2FC71200A940B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC512C2FC71200A940B5 /* HomeView.swift */; };
 		BFAD33722C2FDA2100202A78 /* ShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD336E2C2FDA2100202A78 /* ShakeView.swift */; };
 		BFAD33732C2FDA2100202A78 /* ShakeView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD336F2C2FDA2100202A78 /* ShakeView+Extension.swift */; };
 		BFAD33742C2FDA2100202A78 /* PowerBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD33712C2FDA2100202A78 /* PowerBall.swift */; };
-		BFAD33752C2FDA2100202A78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD336D2C2FDA2100202A78 /* ContentView.swift */; };
 		BFAD33762C2FDA2100202A78 /* ShakeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD33702C2FDA2100202A78 /* ShakeManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,12 +80,34 @@
 		9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD2AC462C2FBDBF00A940B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD2AC472C2FBDBF00A940B5 /* TToGiokWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TToGiokWidget.entitlements; sourceTree = "<group>"; };
-		BFAD336D2C2FDA2100202A78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BD2AC512C2FC71200A940B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BFAD336E2C2FDA2100202A78 /* ShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeView.swift; sourceTree = "<group>"; };
 		BFAD336F2C2FDA2100202A78 /* ShakeView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShakeView+Extension.swift"; sourceTree = "<group>"; };
 		BFAD33702C2FDA2100202A78 /* ShakeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeManager.swift; sourceTree = "<group>"; };
 		BFAD33712C2FDA2100202A78 /* PowerBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerBall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9BD2AC582C2FD22F00A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BallColor.swift,
+			);
+			target = 9BD2AC072C2FBD7300A940B5 /* TToGiOk */;
+		};
+		9BD2AC5A2C2FD23700A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NumberGenerator.swift,
+			);
+			target = 9BD2AC072C2FBD7300A940B5 /* TToGiOk */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9BD2AC572C2FD22F00A940B5 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9BD2AC582C2FD22F00A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		9BD2AC592C2FD23700A940B5 /* Core */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9BD2AC5A2C2FD23700A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Core; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9BD2AC052C2FBD7300A940B5 /* Frameworks */ = {
@@ -124,7 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				9BD2AC0B2C2FBD7300A940B5 /* TToGiOkApp.swift */,
-				BFAD336D2C2FDA2100202A78 /* ContentView.swift */,
+				9BD2AC512C2FC71200A940B5 /* HomeView.swift */,
+				9BD2AC592C2FD23700A940B5 /* Core */,
+				9BD2AC572C2FD22F00A940B5 /* Model */,
 				BFAD336E2C2FDA2100202A78 /* ShakeView.swift */,
 				BFAD336F2C2FDA2100202A78 /* ShakeView+Extension.swift */,
 				BFAD33702C2FDA2100202A78 /* ShakeManager.swift */,
@@ -315,9 +345,9 @@
 				BFAD33722C2FDA2100202A78 /* ShakeView.swift in Sources */,
 				BFAD33732C2FDA2100202A78 /* ShakeView+Extension.swift in Sources */,
 				BFAD33742C2FDA2100202A78 /* PowerBall.swift in Sources */,
-				BFAD33752C2FDA2100202A78 /* ContentView.swift in Sources */,
 				BFAD33762C2FDA2100202A78 /* ShakeManager.swift in Sources */,
 				9BD2AC0C2C2FBD7300A940B5 /* TToGiOkApp.swift in Sources */,
+				9BD2AC522C2FC71200A940B5 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
