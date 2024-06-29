@@ -15,12 +15,6 @@
 		9BD2AC282C2FBDA300A940B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC272C2FBDA300A940B5 /* ContentView.swift */; };
 		9BD2AC2A2C2FBDA400A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC292C2FBDA400A940B5 /* Assets.xcassets */; };
 		9BD2AC2D2C2FBDA400A940B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC2C2C2FBDA400A940B5 /* Preview Assets.xcassets */; };
-		9BD2AC3C2C2FBDBE00A940B5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3B2C2FBDBE00A940B5 /* WidgetKit.framework */; };
-		9BD2AC3E2C2FBDBE00A940B5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3D2C2FBDBE00A940B5 /* SwiftUI.framework */; };
-		9BD2AC412C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC402C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift */; };
-		9BD2AC432C2FBDBE00A940B5 /* TToGiokWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC422C2FBDBE00A940B5 /* TToGiokWidget.swift */; };
-		9BD2AC452C2FBDBF00A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */; };
-		9BD2AC4A2C2FBDBF00A940B5 /* TToGiokWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9BD2AC522C2FC71200A940B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC512C2FC71200A940B5 /* HomeView.swift */; };
 		BFAD33722C2FDA2100202A78 /* ShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD336E2C2FDA2100202A78 /* ShakeView.swift */; };
 		BFAD33732C2FDA2100202A78 /* ShakeView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD336F2C2FDA2100202A78 /* ShakeView+Extension.swift */; };

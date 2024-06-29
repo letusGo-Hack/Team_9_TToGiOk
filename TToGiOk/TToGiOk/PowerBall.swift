@@ -7,9 +7,9 @@
 import Foundation
 import SwiftUI
 
-struct PowerBall: Equatable {
+struct PowerBall: Equatable, Identifiable {
     let id = UUID()
-    let color: Color = .blue
+    let color: Color = .gray
     var number: Int?
     var status: BallDrawStage = .gathering
     
@@ -32,13 +32,12 @@ struct PowerBall: Equatable {
             }
         }
     }
-    
+
     mutating func getNumber() {
         let numbers: Int = 45
         number = Int.random(in: 1...numbers)
         status = .drawCompleted
     }
-    
 }
 
 extension PowerBall {
