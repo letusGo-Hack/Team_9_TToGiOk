@@ -14,7 +14,6 @@
 		BF2119C42C2FAC4B00CDE738 /* TToGiOkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2119C32C2FAC4B00CDE738 /* TToGiOkTests.swift */; };
 		BF2119CE2C2FAC4B00CDE738 /* TToGiOkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2119CD2C2FAC4B00CDE738 /* TToGiOkUITests.swift */; };
 		BF2119D02C2FAC4B00CDE738 /* TToGiOkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2119CF2C2FAC4B00CDE738 /* TToGiOkUITestsLaunchTests.swift */; };
-		BF2119E32C2FACE900CDE738 /* TToGiOkWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2119E22C2FACE900CDE738 /* TToGiOkWatchApp.swift */; };
 		BF2119E52C2FACE900CDE738 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2119E42C2FACE900CDE738 /* ContentView.swift */; };
 		BF2119E72C2FACEC00CDE738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2119E62C2FACEC00CDE738 /* Assets.xcassets */; };
 		BF2119EA2C2FACEC00CDE738 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2119E92C2FACEC00CDE738 /* Preview Assets.xcassets */; };
@@ -88,7 +87,6 @@
 		BF2119CD2C2FAC4B00CDE738 /* TToGiOkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiOkUITests.swift; sourceTree = "<group>"; };
 		BF2119CF2C2FAC4B00CDE738 /* TToGiOkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiOkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF2119E02C2FACE900CDE738 /* TToGiOkWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TToGiOkWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF2119E22C2FACE900CDE738 /* TToGiOkWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiOkWatchApp.swift; sourceTree = "<group>"; };
 		BF2119E42C2FACE900CDE738 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF2119E62C2FACEC00CDE738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2119E92C2FACEC00CDE738 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -210,7 +208,6 @@
 		BF2119E12C2FACE900CDE738 /* TToGiOkWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				BF2119E22C2FACE900CDE738 /* TToGiOkWatchApp.swift */,
 				BF2119E42C2FACE900CDE738 /* ContentView.swift */,
 				BF2119E62C2FACEC00CDE738 /* Assets.xcassets */,
 				BF2119E82C2FACEC00CDE738 /* Preview Content */,
@@ -492,7 +489,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2119E52C2FACE900CDE738 /* ContentView.swift in Sources */,
-				BF2119E32C2FACE900CDE738 /* TToGiOkWatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
