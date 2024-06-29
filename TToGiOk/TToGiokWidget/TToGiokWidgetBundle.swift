@@ -11,6 +11,7 @@ import SwiftUI
 @main
 struct TToGiokWidgetBundle: WidgetBundle {
     var body: some Widget {
-        TToGiokWidget()
+        TToGiokStaticWidget()
+        TToGiokLiveActivityWidget()
     }
 }
