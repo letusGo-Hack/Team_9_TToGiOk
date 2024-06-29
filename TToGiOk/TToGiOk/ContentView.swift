@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  TToGiOk
+//  CoreMotionDemo
 //
-//  Created by Ellen J on 6/29/24.
+//  Created by Hans Yim on 6/29/24.
 //
 
 import SwiftUI
@@ -10,10 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            let ball = PowerBall()
+            ShakeView(ball: ball)
         }
         .padding()
     }
