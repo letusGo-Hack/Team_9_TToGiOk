@@ -142,11 +142,10 @@ struct HomeView: View {
                 switch nav {
                 case .navToResultView:
                     //TODO: ResultView
-                    Text("결과")
+                    
                 case .navToShakeView:
                     //TODO: ShakeView
-                    Text("쉐이크")
-                
+                    ShakeView(ball: <#T##PowerBall#>)
                 }
             }
         }
