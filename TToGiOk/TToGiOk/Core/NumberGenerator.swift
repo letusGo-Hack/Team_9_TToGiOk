@@ -12,11 +12,11 @@ final class BallGenerator: ObservableObject {
     
     @Published var game: [Int: PowerBall] = [
         0: PowerBall(status: .gathering, _gauge: 90),
-        1: PowerBall(status: .gathering, _gauge: 0),
-        2: PowerBall(status: .gathering, _gauge: 0),
-        3: PowerBall(status: .gathering, _gauge: 0),
-        4: PowerBall(status: .gathering, _gauge: 0),
-        5: PowerBall(status: .gathering, _gauge: 0)
+        1: PowerBall(status: .gathering, _gauge: 90),
+        2: PowerBall(status: .gathering, _gauge: 90),
+        3: PowerBall(status: .gathering, _gauge: 90),
+        4: PowerBall(status: .gathering, _gauge: 90),
+        5: PowerBall(status: .gathering, _gauge: 90)
     ]
     
     static let shared = BallGenerator()

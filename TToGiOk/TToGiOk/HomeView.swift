@@ -42,6 +42,8 @@ extension HomeView {
                                         .frame(height: ballHeight)
                                     
                                     Text("\(balls[key]?.number ?? 0)")
+                                        .foregroundStyle(.white)
+                                        .font(.title)
                                 }
                             }
                         }

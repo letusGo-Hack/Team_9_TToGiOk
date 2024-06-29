@@ -39,7 +39,7 @@ struct PowerBall: Equatable, Identifiable {
         self._gauge = _gauge
         
         if number == nil {
-            self.color = .gray
+            self.color = BallColor.allCases.randomElement()?.color ?? .gray // TODO: 없으면 그레이여야함...
         } else {
             self.color = BallColor.allCases.randomElement()?.color ?? .gray
         }
