@@ -15,21 +15,13 @@
 		9BD2AC282C2FBDA300A940B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC272C2FBDA300A940B5 /* ContentView.swift */; };
 		9BD2AC2A2C2FBDA400A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC292C2FBDA400A940B5 /* Assets.xcassets */; };
 		9BD2AC2D2C2FBDA400A940B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC2C2C2FBDA400A940B5 /* Preview Assets.xcassets */; };
-		9BD2AC3C2C2FBDBE00A940B5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3B2C2FBDBE00A940B5 /* WidgetKit.framework */; };
-		9BD2AC3E2C2FBDBE00A940B5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3D2C2FBDBE00A940B5 /* SwiftUI.framework */; };
-		9BD2AC412C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC402C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift */; };
-		9BD2AC432C2FBDBE00A940B5 /* TToGiokWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC422C2FBDBE00A940B5 /* TToGiokWidget.swift */; };
-		9BD2AC452C2FBDBF00A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */; };
-		9BD2AC4A2C2FBDBF00A940B5 /* TToGiokWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9BD2AC522C2FC71200A940B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC512C2FC71200A940B5 /* HomeView.swift */; };
+		9FB1574E2C2FCEBD00B7EEB6 /* OrderActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1574D2C2FCEBD00B7EEB6 /* OrderActivityManager.swift */; };
+		9FB157522C2FE16B00B7EEB6 /* AppLifeCycleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB157512C2FE16100B7EEB6 /* AppLifeCycleHandler.swift */; };
 		BFAD33722C2FDA2100202A78 /* ShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD336E2C2FDA2100202A78 /* ShakeView.swift */; };
 		BFAD33732C2FDA2100202A78 /* ShakeView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD336F2C2FDA2100202A78 /* ShakeView+Extension.swift */; };
 		BFAD33742C2FDA2100202A78 /* PowerBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD33712C2FDA2100202A78 /* PowerBall.swift */; };
 		BFAD33762C2FDA2100202A78 /* ShakeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD33702C2FDA2100202A78 /* ShakeManager.swift */; };
-		9FB1574E2C2FCEBD00B7EEB6 /* OrderActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1574D2C2FCEBD00B7EEB6 /* OrderActivityManager.swift */; };
-		9FB157502C2FCFE600B7EEB6 /* OrderActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1574F2C2FCFDB00B7EEB6 /* OrderActivityManager.swift */; };
-		9FB157522C2FE16B00B7EEB6 /* AppLifeCycleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB157512C2FE16100B7EEB6 /* AppLifeCycleHandler.swift */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,14 +77,14 @@
 		9BD2AC462C2FBDBF00A940B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD2AC472C2FBDBF00A940B5 /* TToGiokWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TToGiokWidget.entitlements; sourceTree = "<group>"; };
 		9BD2AC512C2FC71200A940B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		BFAD336E2C2FDA2100202A78 /* ShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeView.swift; sourceTree = "<group>"; };
-		BFAD336F2C2FDA2100202A78 /* ShakeView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShakeView+Extension.swift"; sourceTree = "<group>"; };
-		BFAD33702C2FDA2100202A78 /* ShakeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeManager.swift; sourceTree = "<group>"; };
-		BFAD33712C2FDA2100202A78 /* PowerBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerBall.swift; sourceTree = "<group>"; };
 		9FB1574B2C2FCBA800B7EEB6 /* TToGiOk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TToGiOk.entitlements; sourceTree = "<group>"; };
 		9FB1574D2C2FCEBD00B7EEB6 /* OrderActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderActivityManager.swift; sourceTree = "<group>"; };
 		9FB1574F2C2FCFDB00B7EEB6 /* OrderActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderActivityManager.swift; sourceTree = "<group>"; };
 		9FB157512C2FE16100B7EEB6 /* AppLifeCycleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLifeCycleHandler.swift; sourceTree = "<group>"; };
+		BFAD336E2C2FDA2100202A78 /* ShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeView.swift; sourceTree = "<group>"; };
+		BFAD336F2C2FDA2100202A78 /* ShakeView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShakeView+Extension.swift"; sourceTree = "<group>"; };
+		BFAD33702C2FDA2100202A78 /* ShakeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeManager.swift; sourceTree = "<group>"; };
+		BFAD33712C2FDA2100202A78 /* PowerBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerBall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -368,7 +360,6 @@
 				BFAD33762C2FDA2100202A78 /* ShakeManager.swift in Sources */,
 				9BD2AC0C2C2FBD7300A940B5 /* TToGiOkApp.swift in Sources */,
 				9BD2AC522C2FC71200A940B5 /* HomeView.swift in Sources */,
-				9BD2AC0E2C2FBD7300A940B5 /* ContentView.swift in Sources */,
 				9FB1574E2C2FCEBD00B7EEB6 /* OrderActivityManager.swift in Sources */,
 				9BD2AC0C2C2FBD7300A940B5 /* TToGiOkApp.swift in Sources */,
 				9FB157522C2FE16B00B7EEB6 /* AppLifeCycleHandler.swift in Sources */,
@@ -381,16 +372,6 @@
 			files = (
 				9BD2AC282C2FBDA300A940B5 /* ContentView.swift in Sources */,
 				9BD2AC262C2FBDA300A940B5 /* TToGiokWatchApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BD2AC352C2FBDBE00A940B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BD2AC412C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift in Sources */,
-				9FB157502C2FCFE600B7EEB6 /* OrderActivityManager.swift in Sources */,
-				9BD2AC432C2FBDBE00A940B5 /* TToGiokWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
