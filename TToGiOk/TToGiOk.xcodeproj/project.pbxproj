@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD2AC0C2C2FBD7300A940B5 /* TToGiOkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC0B2C2FBD7300A940B5 /* TToGiOkApp.swift */; };
+		9BD2AC0E2C2FBD7300A940B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC0D2C2FBD7300A940B5 /* ContentView.swift */; };
+		9BD2AC102C2FBD7400A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC0F2C2FBD7400A940B5 /* Assets.xcassets */; };
+		9BD2AC132C2FBD7400A940B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC122C2FBD7400A940B5 /* Preview Assets.xcassets */; };
+		9BD2AC212C2FBDA300A940B5 /* TToGiokWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9BD2AC202C2FBDA300A940B5 /* TToGiokWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9BD2AC262C2FBDA300A940B5 /* TToGiokWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC252C2FBDA300A940B5 /* TToGiokWatchApp.swift */; };
+		9BD2AC282C2FBDA300A940B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC272C2FBDA300A940B5 /* ContentView.swift */; };
+		9BD2AC2A2C2FBDA400A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC292C2FBDA400A940B5 /* Assets.xcassets */; };
+		9BD2AC2D2C2FBDA400A940B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC2C2C2FBDA400A940B5 /* Preview Assets.xcassets */; };
+		9BD2AC3C2C2FBDBE00A940B5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3B2C2FBDBE00A940B5 /* WidgetKit.framework */; };
+		9BD2AC3E2C2FBDBE00A940B5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD2AC3D2C2FBDBE00A940B5 /* SwiftUI.framework */; };
+		9BD2AC412C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC402C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift */; };
+		9BD2AC432C2FBDBE00A940B5 /* TToGiokWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC422C2FBDBE00A940B5 /* TToGiokWidget.swift */; };
+		9BD2AC452C2FBDBF00A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */; };
+		9BD2AC4A2C2FBDBF00A940B5 /* TToGiokWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD2AC222C2FBDA300A940B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD2AC002C2FBD7300A940B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD2AC1F2C2FBDA300A940B5;
+			remoteInfo = "TToGiokWatch Watch App";
+		};
+		9BD2AC482C2FBDBF00A940B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD2AC002C2FBD7300A940B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD2AC382C2FBDBE00A940B5;
+			remoteInfo = TToGiokWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BD2AC312C2FBDA400A940B5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9BD2AC212C2FBDA300A940B5 /* TToGiokWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC4E2C2FBDBF00A940B5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9BD2AC4A2C2FBDBF00A940B5 /* TToGiokWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9BD2AC082C2FBD7300A940B5 /* TToGiOk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TToGiOk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD2AC0B2C2FBD7300A940B5 /* TToGiOkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiOkApp.swift; sourceTree = "<group>"; };
+		9BD2AC0D2C2FBD7300A940B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BD2AC0F2C2FBD7400A940B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD2AC122C2FBD7400A940B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BD2AC1B2C2FBDA300A940B5 /* TToGiokWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TToGiokWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD2AC202C2FBDA300A940B5 /* TToGiokWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TToGiokWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD2AC252C2FBDA300A940B5 /* TToGiokWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiokWatchApp.swift; sourceTree = "<group>"; };
+		9BD2AC272C2FBDA300A940B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BD2AC292C2FBDA400A940B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD2AC2C2C2FBDA400A940B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TToGiokWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD2AC3B2C2FBDBE00A940B5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		9BD2AC3D2C2FBDBE00A940B5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		9BD2AC402C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiokWidgetBundle.swift; sourceTree = "<group>"; };
+		9BD2AC422C2FBDBE00A940B5 /* TToGiokWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiokWidget.swift; sourceTree = "<group>"; };
+		9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD2AC462C2FBDBF00A940B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD2AC472C2FBDBF00A940B5 /* TToGiokWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TToGiokWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD2AC052C2FBD7300A940B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC1D2C2FBDA300A940B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC362C2FBDBE00A940B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AC3E2C2FBDBE00A940B5 /* SwiftUI.framework in Frameworks */,
+				9BD2AC3C2C2FBDBE00A940B5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD2ABFF2C2FBD7300A940B5 = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC0A2C2FBD7300A940B5 /* TToGiOk */,
+				9BD2AC242C2FBDA300A940B5 /* TToGiokWatch Watch App */,
+				9BD2AC3F2C2FBDBE00A940B5 /* TToGiokWidget */,
+				9BD2AC3A2C2FBDBE00A940B5 /* Frameworks */,
+				9BD2AC092C2FBD7300A940B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD2AC092C2FBD7300A940B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC082C2FBD7300A940B5 /* TToGiOk.app */,
+				9BD2AC1B2C2FBDA300A940B5 /* TToGiokWatch.app */,
+				9BD2AC202C2FBDA300A940B5 /* TToGiokWatch Watch App.app */,
+				9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD2AC0A2C2FBD7300A940B5 /* TToGiOk */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC0B2C2FBD7300A940B5 /* TToGiOkApp.swift */,
+				9BD2AC0D2C2FBD7300A940B5 /* ContentView.swift */,
+				9BD2AC0F2C2FBD7400A940B5 /* Assets.xcassets */,
+				9BD2AC112C2FBD7400A940B5 /* Preview Content */,
+			);
+			path = TToGiOk;
+			sourceTree = "<group>";
+		};
+		9BD2AC112C2FBD7400A940B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC122C2FBD7400A940B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BD2AC242C2FBDA300A940B5 /* TToGiokWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC252C2FBDA300A940B5 /* TToGiokWatchApp.swift */,
+				9BD2AC272C2FBDA300A940B5 /* ContentView.swift */,
+				9BD2AC292C2FBDA400A940B5 /* Assets.xcassets */,
+				9BD2AC2B2C2FBDA400A940B5 /* Preview Content */,
+			);
+			path = "TToGiokWatch Watch App";
+			sourceTree = "<group>";
+		};
+		9BD2AC2B2C2FBDA400A940B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC2C2C2FBDA400A940B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BD2AC3A2C2FBDBE00A940B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC3B2C2FBDBE00A940B5 /* WidgetKit.framework */,
+				9BD2AC3D2C2FBDBE00A940B5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BD2AC3F2C2FBDBE00A940B5 /* TToGiokWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2AC402C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift */,
+				9BD2AC422C2FBDBE00A940B5 /* TToGiokWidget.swift */,
+				9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */,
+				9BD2AC462C2FBDBF00A940B5 /* Info.plist */,
+				9BD2AC472C2FBDBF00A940B5 /* TToGiokWidget.entitlements */,
+			);
+			path = TToGiokWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD2AC072C2FBD7300A940B5 /* TToGiOk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD2AC162C2FBD7400A940B5 /* Build configuration list for PBXNativeTarget "TToGiOk" */;
+			buildPhases = (
+				9BD2AC042C2FBD7300A940B5 /* Sources */,
+				9BD2AC052C2FBD7300A940B5 /* Frameworks */,
+				9BD2AC062C2FBD7300A940B5 /* Resources */,
+				9BD2AC4E2C2FBDBF00A940B5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD2AC492C2FBDBF00A940B5 /* PBXTargetDependency */,
+			);
+			name = TToGiOk;
+			productName = TToGiOk;
+			productReference = 9BD2AC082C2FBD7300A940B5 /* TToGiOk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD2AC1A2C2FBDA300A940B5 /* TToGiokWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD2AC322C2FBDA400A940B5 /* Build configuration list for PBXNativeTarget "TToGiokWatch" */;
+			buildPhases = (
+				9BD2AC192C2FBDA300A940B5 /* Resources */,
+				9BD2AC312C2FBDA400A940B5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD2AC232C2FBDA300A940B5 /* PBXTargetDependency */,
+			);
+			name = TToGiokWatch;
+			productName = TToGiokWatch;
+			productReference = 9BD2AC1B2C2FBDA300A940B5 /* TToGiokWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9BD2AC1F2C2FBDA300A940B5 /* TToGiokWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD2AC2E2C2FBDA400A940B5 /* Build configuration list for PBXNativeTarget "TToGiokWatch Watch App" */;
+			buildPhases = (
+				9BD2AC1C2C2FBDA300A940B5 /* Sources */,
+				9BD2AC1D2C2FBDA300A940B5 /* Frameworks */,
+				9BD2AC1E2C2FBDA300A940B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TToGiokWatch Watch App";
+			productName = "TToGiokWatch Watch App";
+			productReference = 9BD2AC202C2FBDA300A940B5 /* TToGiokWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD2AC382C2FBDBE00A940B5 /* TToGiokWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD2AC4B2C2FBDBF00A940B5 /* Build configuration list for PBXNativeTarget "TToGiokWidgetExtension" */;
+			buildPhases = (
+				9BD2AC352C2FBDBE00A940B5 /* Sources */,
+				9BD2AC362C2FBDBE00A940B5 /* Frameworks */,
+				9BD2AC372C2FBDBE00A940B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TToGiokWidgetExtension;
+			productName = TToGiokWidgetExtension;
+			productReference = 9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD2AC002C2FBD7300A940B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9BD2AC072C2FBD7300A940B5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9BD2AC1A2C2FBDA300A940B5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9BD2AC1F2C2FBDA300A940B5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9BD2AC382C2FBDBE00A940B5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 9BD2AC032C2FBD7300A940B5 /* Build configuration list for PBXProject "TToGiOk" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD2ABFF2C2FBD7300A940B5;
+			productRefGroup = 9BD2AC092C2FBD7300A940B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD2AC072C2FBD7300A940B5 /* TToGiOk */,
+				9BD2AC1A2C2FBDA300A940B5 /* TToGiokWatch */,
+				9BD2AC1F2C2FBDA300A940B5 /* TToGiokWatch Watch App */,
+				9BD2AC382C2FBDBE00A940B5 /* TToGiokWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD2AC062C2FBD7300A940B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AC132C2FBD7400A940B5 /* Preview Assets.xcassets in Resources */,
+				9BD2AC102C2FBD7400A940B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC192C2FBDA300A940B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC1E2C2FBDA300A940B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AC2D2C2FBDA400A940B5 /* Preview Assets.xcassets in Resources */,
+				9BD2AC2A2C2FBDA400A940B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC372C2FBDBE00A940B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AC452C2FBDBF00A940B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD2AC042C2FBD7300A940B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AC0E2C2FBD7300A940B5 /* ContentView.swift in Sources */,
+				9BD2AC0C2C2FBD7300A940B5 /* TToGiOkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC1C2C2FBDA300A940B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AC282C2FBDA300A940B5 /* ContentView.swift in Sources */,
+				9BD2AC262C2FBDA300A940B5 /* TToGiokWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD2AC352C2FBDBE00A940B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AC412C2FBDBE00A940B5 /* TToGiokWidgetBundle.swift in Sources */,
+				9BD2AC432C2FBDBE00A940B5 /* TToGiokWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD2AC232C2FBDA300A940B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD2AC1F2C2FBDA300A940B5 /* TToGiokWatch Watch App */;
+			targetProxy = 9BD2AC222C2FBDA300A940B5 /* PBXContainerItemProxy */;
+		};
+		9BD2AC492C2FBDBF00A940B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD2AC382C2FBDBE00A940B5 /* TToGiokWidgetExtension */;
+			targetProxy = 9BD2AC482C2FBDBF00A940B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9BD2AC142C2FBD7400A940B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BD2AC152C2FBD7400A940B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD2AC172C2FBD7400A940B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TToGiOk/Preview Content\"";
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiOk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BD2AC182C2FBD7400A940B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TToGiOk/Preview Content\"";
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiOk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BD2AC2F2C2FBDA400A940B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TToGiokWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TToGiokWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiokWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		9BD2AC302C2FBDA400A940B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TToGiokWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TToGiokWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiokWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		9BD2AC332C2FBDA400A940B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				INFOPLIST_KEY_CFBundleDisplayName = TToGiokWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiokWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9BD2AC342C2FBDA400A940B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				INFOPLIST_KEY_CFBundleDisplayName = TToGiokWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiokWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9BD2AC4C2C2FBDBF00A940B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TToGiokWidget/TToGiokWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TToGiokWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TToGiokWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiOk.TToGiokWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9BD2AC4D2C2FBDBF00A940B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TToGiokWidget/TToGiokWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TToGiokWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TToGiokWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellen.TToGiOk.TToGiokWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD2AC032C2FBD7300A940B5 /* Build configuration list for PBXProject "TToGiOk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD2AC142C2FBD7400A940B5 /* Debug */,
+				9BD2AC152C2FBD7400A940B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD2AC162C2FBD7400A940B5 /* Build configuration list for PBXNativeTarget "TToGiOk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD2AC172C2FBD7400A940B5 /* Debug */,
+				9BD2AC182C2FBD7400A940B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD2AC2E2C2FBDA400A940B5 /* Build configuration list for PBXNativeTarget "TToGiokWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD2AC2F2C2FBDA400A940B5 /* Debug */,
+				9BD2AC302C2FBDA400A940B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD2AC322C2FBDA400A940B5 /* Build configuration list for PBXNativeTarget "TToGiokWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD2AC332C2FBDA400A940B5 /* Debug */,
+				9BD2AC342C2FBDA400A940B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD2AC4B2C2FBDBF00A940B5 /* Build configuration list for PBXNativeTarget "TToGiokWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD2AC4C2C2FBDBF00A940B5 /* Debug */,
+				9BD2AC4D2C2FBDBF00A940B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD2AC002C2FBD7300A940B5 /* Project object */;
+}

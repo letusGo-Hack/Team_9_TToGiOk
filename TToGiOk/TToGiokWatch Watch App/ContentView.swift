@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  TToGiOkWatch Watch App
+//  TToGiokWatch Watch App
 //
-//  Created by Hans Yim on 6/29/24.
+//  Created by Ellen J on 6/29/24.
 //
 
 import SwiftUI
