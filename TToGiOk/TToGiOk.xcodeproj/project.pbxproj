@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9BD2AC0C2C2FBD7300A940B5 /* TToGiOkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC0B2C2FBD7300A940B5 /* TToGiOkApp.swift */; };
-		9BD2AC0E2C2FBD7300A940B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC0D2C2FBD7300A940B5 /* ContentView.swift */; };
 		9BD2AC102C2FBD7400A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC0F2C2FBD7400A940B5 /* Assets.xcassets */; };
 		9BD2AC132C2FBD7400A940B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC122C2FBD7400A940B5 /* Preview Assets.xcassets */; };
 		9BD2AC212C2FBDA300A940B5 /* TToGiokWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9BD2AC202C2FBDA300A940B5 /* TToGiokWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -22,6 +21,7 @@
 		9BD2AC432C2FBDBE00A940B5 /* TToGiokWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC422C2FBDBE00A940B5 /* TToGiokWidget.swift */; };
 		9BD2AC452C2FBDBF00A940B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */; };
 		9BD2AC4A2C2FBDBF00A940B5 /* TToGiokWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9BD2AC392C2FBDBE00A940B5 /* TToGiokWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9BD2AC522C2FC71200A940B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2AC512C2FC71200A940B5 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,6 @@
 /* Begin PBXFileReference section */
 		9BD2AC082C2FBD7300A940B5 /* TToGiOk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TToGiOk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD2AC0B2C2FBD7300A940B5 /* TToGiOkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TToGiOkApp.swift; sourceTree = "<group>"; };
-		9BD2AC0D2C2FBD7300A940B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BD2AC0F2C2FBD7400A940B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD2AC122C2FBD7400A940B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BD2AC1B2C2FBDA300A940B5 /* TToGiokWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TToGiokWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +85,30 @@
 		9BD2AC442C2FBDBF00A940B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD2AC462C2FBDBF00A940B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD2AC472C2FBDBF00A940B5 /* TToGiokWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TToGiokWidget.entitlements; sourceTree = "<group>"; };
+		9BD2AC512C2FC71200A940B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9BD2AC582C2FD22F00A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BallColor.swift,
+			);
+			target = 9BD2AC072C2FBD7300A940B5 /* TToGiOk */;
+		};
+		9BD2AC5A2C2FD23700A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NumberGenerator.swift,
+			);
+			target = 9BD2AC072C2FBD7300A940B5 /* TToGiOk */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9BD2AC572C2FD22F00A940B5 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9BD2AC582C2FD22F00A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		9BD2AC592C2FD23700A940B5 /* Core */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9BD2AC5A2C2FD23700A940B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Core; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9BD2AC052C2FBD7300A940B5 /* Frameworks */ = {
@@ -141,7 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				9BD2AC0B2C2FBD7300A940B5 /* TToGiOkApp.swift */,
-				9BD2AC0D2C2FBD7300A940B5 /* ContentView.swift */,
+				9BD2AC512C2FC71200A940B5 /* HomeView.swift */,
+				9BD2AC592C2FD23700A940B5 /* Core */,
+				9BD2AC572C2FD22F00A940B5 /* Model */,
 				9BD2AC0F2C2FBD7400A940B5 /* Assets.xcassets */,
 				9BD2AC112C2FBD7400A940B5 /* Preview Content */,
 			);
@@ -355,8 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BD2AC0E2C2FBD7300A940B5 /* ContentView.swift in Sources */,
 				9BD2AC0C2C2FBD7300A940B5 /* TToGiOkApp.swift in Sources */,
+				9BD2AC522C2FC71200A940B5 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
