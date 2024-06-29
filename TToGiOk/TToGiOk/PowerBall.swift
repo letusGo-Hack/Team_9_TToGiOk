@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PowerBall: Equatable, Identifiable {
     let id = UUID()
-    let color: Color = .gray
+    let color: Color
     var number: Int?
     var status: BallDrawStage = .gathering
     
@@ -32,7 +32,19 @@ struct PowerBall: Equatable, Identifiable {
             }
         }
     }
-
+    
+    init(number: Int? = nil, status: BallDrawStage, _gauge: Int) {
+        self.number = number
+        self.status = status
+        self._gauge = _gauge
+        
+        if number == nil {
+            self.color = .gray
+        } else {
+            self.color = BallColor.allCases.randomElement()?.color ?? .gray
+        }
+    }
+    
     mutating func getNumber() {
         let numbers: Int = 45
         number = Int.random(in: 1...numbers)

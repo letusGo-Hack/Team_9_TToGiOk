@@ -9,24 +9,24 @@ import SwiftUI
 struct ShakeView: View {
     
     @StateObject var shakeManager: ShakeManager
+    let index: Int
     
-    init(ball: PowerBall) {
+    init(ball: PowerBall, index: Int) {
+        self.index = index
         _shakeManager = StateObject(wrappedValue: ShakeManager(ball: ball))
     }
     
     var body: some View {
         VStack {
-            
             if let number = shakeManager.ball.number {
-                CircleNumberView(number: number, color: shakeManager.ball.color)
+                CircleNumberView(number: number, color: .blue)
                 
             } else {
                 CircleWaveView(
                     percent: shakeManager.ball.gauge,
-                    color: shakeManager.ball.color
+                    color: .green
                 )
             }
-            
             
             HStack {
                 Text("Shake is Completed.")
@@ -39,6 +39,7 @@ struct ShakeView: View {
             
             Button {
                 shakeManager.drawNumber()
+                BallGenerator.shared.fetchBalls(index: index, ball: shakeManager.ball)
             } label: {
                 Text("번호 뽑아!")
                     .font(.title3)
@@ -48,8 +49,4 @@ struct ShakeView: View {
         }
         .padding()
     }
-}
-#Preview {
-    let ball = PowerBall()
-    ShakeView(ball: ball)
 }

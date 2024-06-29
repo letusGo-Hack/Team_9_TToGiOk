@@ -16,6 +16,7 @@ enum BallColor: String, CaseIterable, Identifiable {
     case cranite
     case hawthron
     case elderberry
+    case gray
     
     var id: UUID { UUID() }
     
@@ -37,6 +38,8 @@ enum BallColor: String, CaseIterable, Identifiable {
                 .init(red: 139/255, green: 75/255, blue: 94/255)
         case .elderberry:
                 .init(red: 159/255, green: 130/255, blue: 149/255)
+        case .gray:
+            Color.gray
         }
     }
 }
