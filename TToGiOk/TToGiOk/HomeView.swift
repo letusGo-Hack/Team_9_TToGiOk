@@ -19,7 +19,11 @@ struct HomeView: View {
     private let animationDuration: CGFloat = 0.3
     private let secondsPerSlide: CGFloat = 1.0
     private let animation: Animation = .default
-    
+    @State var currentActivityID: String = ""
+    @State var currentActivityStatus: OrderStatus = .received
+    @State var activityIDs: [String] = []
+    @StateObject private var appLifecycleHandler = AppLifecycleHandler()
+
     var body: some View {
         let itemsTemp = itemsArray.flatMap { $0.map { $0 } }
         let widthDifference = UIScreen.main.bounds.width - pageWidth
@@ -90,6 +94,23 @@ struct HomeView: View {
                         }
                     }
                 })
+            }
+            .onChange(of: appLifecycleHandler.isAppActive) { isActive in
+                if isActive {
+                    guard let currentActivityID = OrderActivityManager.addLiveActivity() else {
+                        return
+                    }
+                    
+                    self.currentActivityID = currentActivityID
+                    self.activityIDs.append(currentActivityID)
+                } else {
+                    guard let currentActivityID = OrderActivityManager.addLiveActivity() else {
+                        return
+                    }
+                    
+                    self.currentActivityID = currentActivityID
+                    self.activityIDs.append(currentActivityID)
+                }
             }
             
             HStack {
